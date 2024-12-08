@@ -36,7 +36,7 @@ export function GlobalLoading() {
         className={cx(
           "h-full bg-gradient-to-r from-blue-brand to-aqua-brand transition-all duration-500 ease-in-out",
           transition.state === "idle" &&
-            (animating ? "w-full" : "w-0 opacity-0 transition-none"),
+          (animating ? "w-full" : "w-0 opacity-0 transition-none"),
           transition.state === "submitting" && "w-4/12",
           transition.state === "loading" && "w-10/12",
         )}
